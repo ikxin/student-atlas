@@ -5,7 +5,7 @@ import { auth } from "@/lib/auth";
 import { StudentMap } from "./student-map";
 
 export const metadata: Metadata = {
-	title: "学生地图 - Studify",
+	title: "学生地图 - Student Atlas",
 	description: "查看学生地理分布",
 };
 

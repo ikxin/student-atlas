@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-	title: "Studify",
-	description: "Studify application",
+	title: "Student Atlas",
+	description: "高校学生数据管理与地理洞察工作台",
 };
 
 export default function RootLayout({

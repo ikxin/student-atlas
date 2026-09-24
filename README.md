@@ -1,44 +1,32 @@
-# Studify
+# Student Atlas
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+高校学生数据管理与地理洞察工作台，提供登录认证、学生档案检索、报到状态查看、学生住址地图和账户管理能力。
 
-## Getting Started
+项目基于 Next.js App Router、vinext、Cloudflare Workers、Cloudflare D1、Drizzle ORM、Better Auth、Semi Design 和 MapLibre 构建。
 
-This project now runs on [vinext](https://github.com/cloudflare/vinext) with Cloudflare Workers.
+## 本地开发
 
-## Develop
-
-Run the vinext development server:
+安装依赖后执行：
 
 ```bash
-npm run dev
-# or similar package manager command
+pnpm install
+pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+默认访问 `http://localhost:3000`。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 部署
 
-## Deploy
-
-Deploy the application to Cloudflare:
+部署到 Cloudflare Workers：
 
 ```bash
-npm run deploy
-# or similar package manager command
+pnpm deploy
 ```
 
-Use the preview deployment target when needed:
+上传预览环境：
 
 ```bash
-npm run upload
+pnpm upload
 ```
 
-## Learn More
-
-To learn more about the stack used here, take a look at the following resources:
-
-- [vinext Documentation](https://github.com/cloudflare/vinext) - learn about the Vite-based Next.js runtime.
-- [Cloudflare Workers Documentation](https://developers.cloudflare.com/workers/) - learn about the deployment target.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) to learn more about the application framework API that vinext reimplements.
+项目使用远程 Cloudflare D1 数据库。数据库迁移和生产数据操作应先确认影响范围。

@@ -105,7 +105,7 @@ export default function DashboardLayout({
 						/>
 						<IconSemiLogo className="text-(--semi-color-text-0)" style={{ height: "36px", fontSize: 36 }} />
 						<span className="ml-2 hidden text-lg font-semibold text-(--semi-color-text-0) md:inline">
-							Studify
+							Student Atlas
 						</span>
 					</Nav.Header>
 					<Nav.Footer>
@@ -140,7 +140,7 @@ export default function DashboardLayout({
 							}
 						>
 							<span>
-								<Avatar color="orange" size="small" alt="Studify">
+								<Avatar color="orange" size="small" alt="Student Atlas">
 									S
 								</Avatar>
 							</span>
@@ -167,7 +167,7 @@ export default function DashboardLayout({
 			</Layout>
 
 			<Footer className="flex shrink-0 flex-col items-center justify-between gap-2 border-t border-(--semi-color-border) bg-(--semi-color-bg-1) px-5 py-4 text-(--semi-color-text-2) sm:flex-row">
-				<span className="text-sm">Copyright &copy; 2026 Studify. All Rights Reserved.</span>
+				<span className="text-sm">Copyright &copy; 2026 Student Atlas. All Rights Reserved.</span>
 				<span className="flex gap-6 text-sm">
 					<span>帮助中心</span>
 					<span>反馈建议</span>

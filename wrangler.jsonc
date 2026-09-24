@@ -8,7 +8,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "studify",
+	"name": "student-atlas",
 	"main": "vinext/server/app-router-entry",
 	"compatibility_date": "2026-05-19",
 	"compatibility_flags": [
@@ -25,8 +25,8 @@
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "studify",
-			"database_id": "112a09fe-c10d-4138-89dc-252489406dcc",
+			"database_name": "student-atlas",
+			"database_id": "e76bbbbf-e97b-42be-a348-33c35052b48f",
 			"remote": true
 		}
 	]

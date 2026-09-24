@@ -5,7 +5,7 @@ import { auth } from "@/lib/auth";
 import { UserManagement } from "./user-management";
 
 export const metadata: Metadata = {
-	title: "用户管理 - Studify",
+	title: "用户管理 - Student Atlas",
 	description: "管理当前登录账户",
 };
 

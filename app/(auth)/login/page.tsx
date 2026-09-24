@@ -3,8 +3,8 @@ import Link from "next/link";
 import { LoginForm } from "./login-form";
 
 export const metadata: Metadata = {
-	title: "登录 - Studify",
-	description: "登录 Studify",
+	title: "登录 - Student Atlas",
+	description: "登录 Student Atlas",
 };
 
 export default function LoginPage() {
@@ -14,7 +14,7 @@ export default function LoginPage() {
 				<div className="flex items-center gap-3">
 					<div className="flex size-10 items-center justify-center rounded-lg bg-blue-600 text-lg font-semibold text-white">S</div>
 					<div>
-						<p className="text-base font-semibold">Studify</p>
+						<p className="text-base font-semibold">Student Atlas</p>
 						<p className="text-sm text-(--semi-color-text-2)">Vinext Cloudflare 应用</p>
 					</div>
 				</div>
@@ -23,11 +23,11 @@ export default function LoginPage() {
 					<p className="mb-4 text-sm font-medium text-blue-600">工作台登录</p>
 					<h1 className="text-4xl font-semibold leading-tight">管理入口，保持清晰高效。</h1>
 					<p className="mt-5 max-w-lg text-base leading-7 text-(--semi-color-text-2)">
-						使用已有账户的邮箱和密码登录，继续访问 Studify 管理工作台。
+						使用已有账户的邮箱和密码登录，继续访问 Student Atlas 管理工作台。
 					</p>
 				</div>
 
-				<p className="text-sm text-(--semi-color-text-2)">Copyright &copy; {new Date().getFullYear()} Studify. All Rights Reserved.</p>
+				<p className="text-sm text-(--semi-color-text-2)">Copyright &copy; {new Date().getFullYear()} Student Atlas. All Rights Reserved.</p>
 			</section>
 
 			<section className="flex min-h-dvh items-center justify-center px-4 py-8 sm:px-6 lg:min-h-0 lg:px-10">
@@ -36,7 +36,7 @@ export default function LoginPage() {
 						<div className="mb-5 flex items-center gap-3">
 							<div className="flex size-10 items-center justify-center rounded-lg bg-blue-600 text-lg font-semibold text-white">S</div>
 							<div>
-								<p className="text-base font-semibold">Studify</p>
+								<p className="text-base font-semibold">Student Atlas</p>
 								<p className="text-sm text-(--semi-color-text-2)">Vinext Cloudflare 应用</p>
 							</div>
 						</div>
