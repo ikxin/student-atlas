@@ -6,7 +6,7 @@ import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Avatar, Button, Empty, Input, SideSheet, Spin, Tag, Typography } from "@douyinfe/semi-ui";
 import { IconMapPin, IconRefresh, IconSearch } from "@douyinfe/semi-icons";
-import maplibregl from "maplibre-gl";
+import * as maplibregl from "maplibre-gl";
 import type { Map as MapLibreMap, Marker as MapLibreMarker } from "maplibre-gl";
 import type { InsightResponse, InsightStudent } from "@/types/insight";
 
