@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { Avatar, Button, Empty, Input, SideSheet, Spin, Tag, Typography } from "@douyinfe/semi-ui";
 import { IconMapPin, IconRefresh, IconSearch } from "@douyinfe/semi-icons";
 import * as maplibregl from "maplibre-gl";
+import maplibreWorkerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import type { Map as MapLibreMap, Marker as MapLibreMarker } from "maplibre-gl";
 import type { InsightResponse, InsightStudent } from "@/types/insight";
 
@@ -252,6 +253,7 @@ function MapCanvas({
 		}
 
 		const container = containerRef.current;
+		maplibregl.setWorkerUrl(maplibreWorkerUrl);
 		const map = new maplibregl.Map({
 			container,
 			style: {
